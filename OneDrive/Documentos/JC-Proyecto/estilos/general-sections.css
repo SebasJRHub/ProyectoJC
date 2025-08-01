@@ -1,0 +1,14 @@
+.section-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    position: relative;
+}
+.section-container:nth-child(odd){
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.section-container:nth-child(even){
+    background-color: #f0f0f0;
+}

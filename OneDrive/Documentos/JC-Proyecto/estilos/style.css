@@ -1,5 +1,7 @@
 @import url(header-nav.css);
 @import url(general-sections.css);
+@import url(aboutme-section.css);
+@import url(projects-section.css);
 
 *{  margin: 0;
     padding: 0;

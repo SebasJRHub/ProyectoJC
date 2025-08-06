@@ -1,0 +1,14 @@
+.projects-sec img{
+    width: 400px;
+    height: 400px;
+}
+
+.projects-sec{
+    margin: 20px 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    align-items: center;
+    padding: 20px;
+}

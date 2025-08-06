@@ -1,0 +1,37 @@
+.aboutme-container{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    gap: 20px;
+    align-items: start;
+}
+.aboutme-container img{
+    width: 180px;
+    height: 180px;
+    border-radius:50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+.about_description h3{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+.about_description p{
+    text-align: justify;
+    line-height: 1.8;
+}
+.skills ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5;
+}
+.skills li{
+    background-color: rgb(10, 75, 75);
+    color: aliceblue;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 3px;
+}

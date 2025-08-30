@@ -1,0 +1,47 @@
+#header{
+    position: fixed;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    background-color:rgb(44, 2, 61);
+    width: 100%;
+    z-index: 10;
+    color: aliceblue;
+    top: 0;
+}
+#header .container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px
+    
+    
+}
+nav{
+    display: flex;
+    gap: 19px;
+    
+}
+nav a{
+    
+    text-decoration: none;
+    color:aliceblue;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3ms;
+    position: relative;
+}
+nav a:hover{
+    color: rgb(219, 98, 50);
+}
+nav a::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0;
+    left: 0;
+    height: 3px;
+    background-color:  rgb(16, 189, 189);
+    transition: width 0.3s;
+}
+nav a:hover::after{
+    width: 100%;
+}

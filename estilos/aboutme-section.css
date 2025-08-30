@@ -1,0 +1,24 @@
+.aboutme-container{
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+    gap: 20px;
+    align-items: start;
+}
+.aboutme-container img{
+    width: 180px;
+    height: 180px;
+    border-radius:50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+.about_description h3{
+    text-align: left;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+.about_description p{
+    text-align: justify;
+    line-height: 1.8;
+}

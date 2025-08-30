@@ -1,0 +1,27 @@
+@import url(header-nav.css);
+@import url(general-sections.css);
+@import url(aboutme-section.css);
+@import url(projects-section.css);
+@import url(contact-section.css);
+@import url(skills-section.css);
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: black;
+    background-color: rgba(101, 148, 148, 0.315);
+    
+}
+/*contenedores */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+

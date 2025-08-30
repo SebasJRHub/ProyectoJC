@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Mi Portaforlio</title>
+</head>
+<body>
+    <div>
+        <header id="header">
+            <div class="container">
+                <h1> PORTFOLIO</h1>
+            
+                <nav >
+                    <a href="#sobre-mi">Sobre mi</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contactos">Contacto</a>
+
+                </nav>
+            </div>
+        </header>
+
+    </div>
+    <!--Secciones-->
+    <main>
+        <section id="section-aboutme"class="section-container">
+          <div class="container">
+            <h2 id="sobre-mi">SOBRE MI</h2>
+              <div class="aboutme-container">
+                <img src="images/Foto Sebastian.JPG" alt="soy ese">
+                
+                <div class="about_description">
+                <h3>Sebastian Santacruz</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Fuga nulla repellendus quia. Perspiciatis fugiat dolores
+                      sapiente at nisi expedita labore hic autem rem architecto 
+                      ad, quas, amet, ipsam alias maiores!</p>
+                </div>
+                    
+                </div>
+             </div>
+        </section >
+        <section id="section-skills" class="section-container">
+            <div class="skills" >
+                <h2 id="habilidades">HABILIDADES</h2>
+                         <ul>
+                            <li><img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="logo_html">HTML</li>
+                            <li><img src="https://cdn.iconscout.com/icon/free/png-256/free-css3-icon-svg-png-download-1175237.png" alt="logo_css">CSSdiv</li>
+                            <li><img src="https://cdn.iconscout.com/icon/free/png-256/free-javascript-icon-svg-png-download-225993.png" alt="logo_js">JAVASCRIPT</li>
+                            <li><img src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-svg-png-download-2945017.png" alt="logo_java">JAVA</li>
+                            <li><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/spring-boot-icon.png" alt="logo_spring">SPRING</li>
+                            <li><img src="https://cdn.iconscout.com/icon/free/png-256/free-oracle-logo-icon-svg-png-download-7416906.png" alt="logo_oracle">ORACLEDB</li>
+                            
+                        </ul>
+                    </div>
+        </section>
+        <section id="section-projects" class="section-container">
+            <h2 id="proyectos">Proyectos</h2>
+            <div>
+                <div class="projects-sec">
+                    
+                    <img src="images/fondo.jpg" alt="img proyecto">
+                  <div>
+                    <h3>MI PORTAFOLIO</h3>
+                    <p>Mi portafolio personal fue desarrollado en tecnologias como
+                        CSS3 ,HTML5 ,JS .etc
+                        .Este proyecto esta en constante mejora y en un futuro se desea
+                    implementar bases de datos e incluso algunos frameworks</p>
+                    <a href="index.html">View project →</a>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-contact" class="section-container">
+            <h2 id="contactos">CONTACTO</h2>
+            <div class="contact-section">
+                <form >
+                    <label for="inp-nombre"> Nombre </label>
+                    <input type="text" name="inp-nombre" id="inp-nombre" placeholder="Ingrese su email...">
+
+                    <label for="inp-email">Email</label>
+                    <input type="email" name="inp-email" id="inp-email" placeholder="Ingrese su email...">
+
+                    <label for="inp-mensaje">Mensaje</label>
+                    <input type="textarea" name="inp-mensaje" id="inp-mensaje"placeholder="Deje un mensaje..." >
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="my-info">
+                    <div>
+                        <i class="fas fa-phone"></i>  
+                        <p> <strong> Telefono</strong> <br> +57 3176162718</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i> 
+                        <p> <strong>Location</strong> <br> Palmira, Valle del cauca</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <p> <strong>Email</strong> <br> ssantacruznavarro@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

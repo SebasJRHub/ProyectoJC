@@ -1,24 +1,35 @@
 .aboutme-container{
     display: grid;
-    grid-template-columns: 200px 1fr ;
+    grid-template-columns: 400px 1fr ;
     gap: 20px;
     align-items: start;
+    height: 100vh;
 }
 .aboutme-container img{
-    width: 180px;
-    height: 180px;
-    border-radius:50%;
+    width: 360px;
+    height: 380px;
     object-fit: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
 
 }
-.about_description h3{
-    text-align: left;
-    margin-bottom: 20px;
-    letter-spacing: 1.5px;
-    font-size: 20px;
-}
+
 .about_description p{
     text-align: justify;
     line-height: 1.8;
+    font-size: 20px;
+}
+.about_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutme-container .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    height: 470px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.623);
 }

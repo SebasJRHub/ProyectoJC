@@ -1,30 +1,32 @@
-.projects-sec img{
+.project1 img{
     width: 100%;
     height: 250px;
     border-radius: 20px 20px 0 0;
     
 }
 .projects-sec{
-    margin: 20px 50px;
-    width: 500px;
-    
-    display: flex;
-    border-radius: 20px;
-    flex-direction: column;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 10px;
     align-items: center;
 }
-.projects-sec div{
+.project1{
+    border-radius: 25px 25px 20px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: antiquewhite;
+    color: black;
+}
+.project1 div{
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.projects-sec div h3{
+.project1 div h3{
     text-align: center;
 }
-.projects-sec div a{
+.project1 div a{
    text-decoration: none;
    font-weight: bold;
-   color: rgb(10, 75, 75);
+   color: rgb(0, 0, 0);
 }

@@ -14,13 +14,14 @@
     
 }
 #section-main h1{
-    font-size: 75px;
+    font-size: 60px;
     letter-spacing: 3px;    
 }
 #section-main h2{
-    margin-top: -30px;
-    font-size: 40px;
+    margin-top: -40px;
+    font-size: 30px;
     letter-spacing: 3px;
+    color: rgb(230, 207, 176);
 }
 #section-main p{
     padding: 10px 100px; 
@@ -36,5 +37,5 @@
     cursor: pointer;
 }
 #section-main div div{
-    padding-top: 200px;
+    padding-top: 180px;
 }

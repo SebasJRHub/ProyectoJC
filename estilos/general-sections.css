@@ -1,15 +1,14 @@
-
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .section-container{
-    max-width: 100%;
+    width: 1000px;
     max-height: 700px;
     padding: 20px 10px;
-    border-radius: 20px;
-}
-.section-container{ 
     color: rgb(255, 255, 255);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
-
 .section-container h2{
     padding-top: 30px;
     text-align: center;
@@ -19,6 +18,3 @@
     text-transform: uppercase;
 }
 
-.container{
-    width: 80%;
-}

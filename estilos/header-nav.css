@@ -1,19 +1,15 @@
 #header{
-    position: fixed;
-   
+    position: fixed;   
     width: 100%;
     z-index: 10;
     color: aliceblue;
     top: 0;
 }
 #header .container{
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px
-    
-    
 }
 nav{
     display: flex;

@@ -5,11 +5,12 @@
 @import url(contact-section.css);
 @import url(skills-section.css);
 @import url(main-section.css);
+@import url(mediasQuerys.css);
 *{  margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-
+    scroll-behavior: smooth; /* Activar scroll suave */
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -27,3 +28,24 @@ body{
     padding: 0 20px;
 }
 
+footer{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 70px;
+}
+
+footer img{
+    width: 40px;
+}
+footer h3{
+    text-align: center;
+    color: black;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+}

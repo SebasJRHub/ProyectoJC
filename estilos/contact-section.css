@@ -1,15 +1,17 @@
 .contact-section{
     justify-content: center;
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
+    height: 280px;
 }
 .contact-section form{
     display: flex;
     flex-direction: column;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.418);
+    background-color: antiquewhite;
     padding: 20px;
     border-radius: 20px;
+    color: black;
 }
 .contact-section form input{
     margin-bottom: 10px;
@@ -17,8 +19,20 @@
     max-width: 100%;
     height: 35px;
     border-radius: 5px;
-    border: 1px solid rgba(105, 104, 104, 0.603);
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    color: black;
 }
+.contact-section form textarea{
+    
+    margin-bottom: 10px;
+    padding-left: 5px;
+    max-width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    color: black;
+}
+
 .contact-section form label{
    font-weight: bold;
    font-size: 13px;
@@ -36,19 +50,14 @@
     cursor: pointer;
 }
 .contact-section form button:hover{
-    width: 22%;
-    margin-top: 10px;
-    height: 38px;
-    border-radius: 20px;
-    border: none;
-    background-color: rgb(10, 75, 75);
+    
+    background-color: rgb(44, 44, 44);
     color: aliceblue;
     font-weight: bold;
     cursor: pointer;
 }
 .my-info div{
     display: flex;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.418);
     margin-bottom: 20px;
     height: 70px;
     padding: 16px;
@@ -58,5 +67,14 @@
     gap: 10px;
     border-radius: 20px;
     font-size: 13px;
-
+    background-color: antiquewhite;
+    color: black;
+}
+.alertas{
+    font-size: 13px;
+    margin-top: -7px;
+    color: rgb(65, 1, 90);
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    font-weight: bold;
 }

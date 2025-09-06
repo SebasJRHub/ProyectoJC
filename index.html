@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">   
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./estilos/style.css">
+   
     <title>Mi Portaforlio</title>
 </head>
 <body>
+     <script src="app.js"></script>
     <div>
         <header id="header">
             <div class="container">
-                <h1> PORTFOLIO</h1>
+                <h1> SEBASDEV</h1>
             
                 <nav >
                     <a href="#sobre-mi">Sobre mi</a>
@@ -36,7 +38,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptas et ipsam quae id illo, saepe consequuntur, atque laborum amet reprehenderit molestias nulla 
                     temporibus blanditiis ipsa quibusdam exercitationem velit commodi!</p>
                 <div class="boton-vermas">
-                    <button type="button">Comenzar</button>
+                    <a href="#sobre-mi"><button type="button">Comenzar</button></a>
                 </div>
             </div>
         </section>
@@ -94,17 +96,20 @@
         <section id="section-contact" class="section-container">
             <h2 id="contactos">CONTACTO</h2>
             <div class="contact-section">
-                <form >
+                <form name="form" id="form" method="post">
                     <label for="inp-nombre"> Nombre </label>
-                    <input type="text" name="inp-nombre" id="inp-nombre" placeholder="Ingrese su email...">
+                    <input type="text" name="inp-nombre" id="inp-nombre" placeholder="Ingrese su nombre...">
+                    <p class="alertas" id="alerta1"></p>
 
                     <label for="inp-email">Email</label>
-                    <input type="email" name="inp-email" id="inp-email" placeholder="Ingrese su email...">
+                    <input type="email" name="inp-email" id="inp-email" placeholder="Ingrese su correo...">
+                    <p class="alertas" id="alerta2"></p>
 
                     <label for="inp-mensaje">Mensaje</label>
-                    <input type="textarea" name="inp-mensaje" id="inp-mensaje"placeholder="Deje un mensaje..." >
-
+                    <textarea name="inp-mensaje" id="inp-mensaje" placeholder="Dejame un mensaje..."></textarea>
                     <button type="submit">Enviar</button>
+                   
+                    
                 </form>
                 <div class="my-info">
                     <div>
@@ -123,5 +128,16 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="foot">
+            <h3>SEBASDEV</h3>
+            <div class="redes">
+                <a href=""><img src="images/iconos-redes/instagram.png" alt="ig"></a>
+                <a href=""><img src="images/iconos-redes/gorjeo.png" alt="x"></a>
+                <a href=""><img src="images/iconos-redes/linkedin.png" alt="linkedin"></a>
+                <a href=""><img src="images/iconos-redes/whatsapp.png" alt="whatsapp"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

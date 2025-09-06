@@ -14,10 +14,9 @@
 nav{
     display: flex;
     gap: 19px;
-    
+    mix-blend-mode: difference;
 }
-nav a{
-    
+nav a{    
     text-decoration: none;
     color:aliceblue;
     font-family: "Montserrat", sans-serif;
@@ -25,7 +24,8 @@ nav a{
     position: relative;
 }
 nav a:hover{
-    color: rgb(219, 98, 50);
+    color: antiquewhite;
+    font-weight: bold;
 }
 nav a::after{
     content: "";
@@ -34,7 +34,7 @@ nav a::after{
     width: 0;
     left: 0;
     height: 3px;
-    background-color:  rgb(16, 189, 189);
+    background-color:  antiquewhite;
     transition: width 0.3s;
 }
 nav a:hover::after{
